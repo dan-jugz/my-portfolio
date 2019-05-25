@@ -40,6 +40,13 @@ li a:hover:not(.active) {
   position: relative;
 }
 
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
 /* Bottom right text */
 .text-block {
   position: absolute;

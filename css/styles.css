@@ -63,9 +63,9 @@ li a:hover:not(.active) {
  
 }
 
-p {
-  font-family: 'Share Tech Mono', monospace;
-  }
+h2 {font-family: 'Share Tech Mono', monospace;}
+p {font-family: 'Share Tech Mono', monospace;}
+
   p.a{
     font-size: 40px;
   }
@@ -121,8 +121,6 @@ p {
     color: white;
   }
 .about {
-  background-repeat: no-repeat,repeat-x;
-  background-size: cover,cover;
   font-size: 150%;
   position: relative;
   top: 60px;
@@ -145,6 +143,14 @@ p {
   margin: 10px;
   background-color: rgba(224, 224, 214, 0.4);
 } 
-h2 {
-  font-family: 'Share Tech Mono', monospace;
+.projects {
+  font-size: 150%;
+  position: relative;
+  top: 60px;
+  left: 50px;
+  width: 400px;
+  border: 2px solid #C19A6B;
+  padding: 6px;
+  margin: 10px;
+  background-color: rgba(224, 224, 224, 0.5);
 }

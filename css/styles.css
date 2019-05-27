@@ -66,13 +66,13 @@ li a:hover:not(.active) {
 h2 {font-family: 'Share Tech Mono', monospace;}
 p {font-family: 'Share Tech Mono', monospace;}
 
-  p.a{
+  p#a{
     font-size: 40px;
   }
-  p.b{
+  p#b{
     font-size: 50px;
   }
-  p.c{
+  p#c{
     font-size: 35px;
   }
   body  {
@@ -136,8 +136,8 @@ p {font-family: 'Share Tech Mono', monospace;}
   font-size: 150%;
   position: relative;
   top: 60px;
-  left: 720px;
-  width: 250px;
+  left: 300px;
+
   border: 2px solid #C19A6B;
   padding: 6px;
   margin: 10px;
@@ -148,9 +148,20 @@ p {font-family: 'Share Tech Mono', monospace;}
   position: relative;
   top: 60px;
   left: 50px;
-  width: 400px;
+  width: 450px;
   border: 2px solid #C19A6B;
   padding: 6px;
   margin: 10px;
   background-color: rgba(224, 224, 224, 0.5);
+} #top {
+  top: 60px;
+  padding-top: 50px;
+}
+.container{
+  width: 750px;
+  padding-top: 50px;
+}
+.column {
+  width: 350px;
+  float: left;
 }
